@@ -25,3 +25,21 @@ def calculate_resistance(*args):
 
 def calculate_all():
     for resistor in resistorArr:
+        #something
+
+def delay_calculation_millis(*args):
+    #quadratic
+    resitance = 100(-20.7654+sqrt(20.7654^2 - 4.2253(570.5679-100T))/(2.2253))
+
+def delay_calculation_seconds(*args):
+    #quadratic
+    resitance = 100(-b+sqrt(b^2 - 4a(c-100T))/(2a))
+def delay_calculation_tens(*args):
+    #quadratic
+    resitance = 100(-b+sqrt(b^2 - 4a(c-100T))/(2a))
+def delay_calculation_hundred(*args):
+    #quadratic
+    resitance = 100(-b+sqrt(b^2 - 4a(c-100T))/(2a))
+def delay_calculation_thousand(*args):
+    #quadratic
+    resitance = 100(-b+sqrt(b^2 - 4a(c-100T))/(2a))
