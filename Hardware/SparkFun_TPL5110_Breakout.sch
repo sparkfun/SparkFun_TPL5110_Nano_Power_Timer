@@ -17984,22 +17984,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5.6KOHM" prefix="R">
-<description>&lt;h3&gt;5.6kΩ resistor&lt;/h3&gt;
+<deviceset name="124KOHM" prefix="R">
+<description>&lt;h3&gt;124kΩ resistor &lt;/h3&gt;
+
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603-1/10W-1%" package="0603">
+<device name="" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-12378"/>
-<attribute name="VALUE" value="5.6k"/>
+<attribute name="PROD_ID" value="RES-14395" constant="no"/>
+<attribute name="VALUE" value="124k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="169KOHM" prefix="R">
+<description>&lt;h3&gt;169kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14394" constant="no"/>
+<attribute name="VALUE" value="169K" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18167,6 +18189,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-14281"/>
 <attribute name="VALUE" value="22k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="93.1KOHM" prefix="R">
+<description>&lt;h3&gt;93.1kΩ resistor &lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14393" constant="no"/>
+<attribute name="VALUE" value="93.1k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20072,9 +20115,8 @@ Switches electrical signals</description>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="16.2KOHM" device="-0603-1/10W-1%" value="16.2k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="22KOHM" device="-0603-1/10W-1%" value="22k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="5.6KOHM" device="-0603-1/10W-1%" value="5.6k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="5.6KOHM" device="-0603-1/10W-1%" value="5.6k"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="5.6KOHM" device="-0603-1/10W-1%" value="5.6k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="124KOHM" device="" value="124k"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="169KOHM" device="" value="169K"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
@@ -20100,6 +20142,7 @@ Switches electrical signals</description>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="93.1KOHM" device="" value="93.1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -20118,7 +20161,7 @@ Switches electrical signals</description>
 <wire x1="0" y1="35.56" x2="58.42" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="0" width="0.2032" layer="97" style="shortdash"/>
 <text x="5.08" y="27.94" size="2.54" layer="94" font="vector">Switch</text>
-<text x="86.36" y="78.74" size="2.032" layer="91" font="vector">92k, 125k, 170k</text>
+<text x="149.86" y="71.12" size="2.032" layer="97" font="vector">Disable</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20151,10 +20194,6 @@ Switches electrical signals</description>
 <instance part="R2" gate="G$1" x="63.5" y="81.28" smashed="yes">
 <attribute name="NAME" x="63.5" y="82.804" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="63.5" y="79.756" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R3" gate="G$1" x="78.74" y="76.2" smashed="yes">
-<attribute name="NAME" x="78.74" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="78.74" y="72.136" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="68.58" y="71.12" smashed="yes">
 <attribute name="NAME" x="68.58" y="72.644" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -20234,6 +20273,10 @@ Switches electrical signals</description>
 </instance>
 <instance part="LOGO2" gate="G$1" x="162.56" y="45.72" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="218.44" y="48.26" smashed="yes"/>
+<instance part="R3" gate="G$1" x="78.74" y="76.2" smashed="yes">
+<attribute name="NAME" x="78.74" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="78.74" y="74.676" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20296,7 +20339,6 @@ Switches electrical signals</description>
 <wire x1="101.6" y1="60.96" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <junction x="101.6" y="81.28"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <junction x="101.6" y="76.2"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -20311,6 +20353,7 @@ Switches electrical signals</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <junction x="101.6" y="60.96"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -20358,9 +20401,9 @@ Switches electrical signals</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="SW1" gate="G$1" pin="10"/>
 <wire x1="73.66" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
