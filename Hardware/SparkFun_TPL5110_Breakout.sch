@@ -20162,6 +20162,7 @@ Switches electrical signals</description>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="0" width="0.2032" layer="97" style="shortdash"/>
 <text x="5.08" y="27.94" size="2.54" layer="94" font="vector">Switch</text>
 <text x="149.86" y="71.12" size="2.032" layer="97" font="vector">Disable</text>
+<text x="73.66" y="53.34" size="1.778" layer="97" font="vector">Custom Value Resistors</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20244,14 +20245,14 @@ Switches electrical signals</description>
 <instance part="GND5" gate="1" x="185.42" y="60.96" smashed="yes">
 <attribute name="VALUE" x="185.42" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="VDD" x="142.24" y="71.12" smashed="yes">
-<attribute name="VALUE" x="142.24" y="73.914" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="VDD" x="144.78" y="68.58" smashed="yes">
+<attribute name="VALUE" x="144.78" y="71.374" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="H1" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
 <instance part="H2" gate="G$1" x="231.14" y="27.94" smashed="yes"/>
 <instance part="H4" gate="G$1" x="228.6" y="30.48" smashed="yes"/>
-<instance part="SUPPLY4" gate="VDD" x="205.74" y="165.1" smashed="yes">
-<attribute name="VALUE" x="205.74" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="VDD" x="203.2" y="162.56" smashed="yes">
+<attribute name="VALUE" x="203.2" y="165.354" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY5" gate="VDD" x="17.78" y="15.24" smashed="yes">
 <attribute name="VALUE" x="17.78" y="18.034" size="1.778" layer="96" align="bottom-center"/>
@@ -20295,8 +20296,8 @@ Switches electrical signals</description>
 <segment>
 <pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="71.12" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="68.58" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="+"/>
@@ -20318,8 +20319,8 @@ Switches electrical signals</description>
 <segment>
 <pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
 <pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="205.74" y1="160.02" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
