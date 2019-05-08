@@ -40,7 +40,7 @@ print("")
 #Uncomment for sixth resistor value
 #print("Combinations of 6:")
 #comboSix = list(itertools.combinations(resistorArr, 6))
-#print(comboFive)
+#print(comboSix)
 #print("")
 
 print("------Calculated Resistance------\n")
