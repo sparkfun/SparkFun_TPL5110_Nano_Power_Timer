@@ -1,7 +1,7 @@
 SparkFun Nano Power Switch
 ========================================
 
-[![SparkFun Nano Power Switch](https://cdn.sparkfun.com/assets/parts/1/3/8/8/4/PRT-15353-1.jpg)](https://www.sparkfun.com/products/15353)
+[![SparkFun Nano Power Switch](https://cdn.sparkfun.com/r/400-400/assets/parts/1/3/8/8/4/PRT-15353-1.jpg)](https://www.sparkfun.com/products/15353)
 
 [*SparkFun Nano Power Switch (PRT-15353)*](https://www.sparkfun.com/products/15353)
 
@@ -19,7 +19,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/tpl5110-nano-power-timer-hookup-guide)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/tpl5110-nano-power-timer-hookup-guide)** - Basic hookup guide for the TPL5110 Nano Power Timer.
 
 License Information
 -------------------
