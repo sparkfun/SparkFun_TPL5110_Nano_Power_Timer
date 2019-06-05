@@ -1,4 +1,4 @@
-SparkFun Nano Power Switch
+SparkFun TPL5110 Nano Power Timer
 ========================================
 
 [![SparkFun Nano Power Switch](https://cdn.sparkfun.com/r/400-400/assets/parts/1/3/8/8/4/PRT-15353-1.jpg)](https://www.sparkfun.com/products/15353)
@@ -13,9 +13,7 @@ Repository Contents
 * **/Documentation** - Data sheets, additional product information
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
