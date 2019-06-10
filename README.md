@@ -18,6 +18,7 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/tpl5110-nano-power-timer-hookup-guide)** - Basic hookup guide for the TPL5110 Nano Power Timer.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 
 License Information
 -------------------
