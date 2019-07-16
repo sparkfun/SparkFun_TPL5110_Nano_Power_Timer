@@ -1,7 +1,7 @@
 SparkFun TPL5110 Nano Power Timer
 ========================================
 
-[![SparkFun Nano Power Switch](https://cdn.sparkfun.com/assets/parts/1/3/8/8/4/15353-SparkFun_Nano_Power_Timer_-_TPL5110-01.jpg)]
+![SparkFun Nano Power Switch](https://cdn.sparkfun.com/assets/parts/1/3/8/8/4/15353-SparkFun_Nano_Power_Timer_-_TPL5110-01.jpg)
 
 [*SparkFun Nano Power Switch (PRT-15353)*](https://www.sparkfun.com/products/15353)
 
